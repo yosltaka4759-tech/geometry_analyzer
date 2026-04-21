@@ -24,6 +24,8 @@ There are various ways to define the diameter, but in this study, the direction 
 This is because it is close to the size that humans perceive as the diameter when observing an object.
 
 Those calcilated value is saved in a file, so you can plot it by Excel or something.
+<img width="362" height="218" alt="image" src="https://github.com/user-attachments/assets/1f1b8284-40c3-4f8e-95a4-d314fcff98f5" />
+
 
 *we can't the sourse code of Operando Master to ensure the protection of research information
 
@@ -51,5 +53,8 @@ GAは、セグメンテーション画像から対象物の直径および面積
 
 直径の定義には様々な方法がありますが、本研究ではPCAによって方向を決定し、その方向におけるフェレ径を採用しています。
 これは、人間が物体を観察した際に直径として認識するサイズに近いためです。
+
+また計算された値は別のファイルに保存されます。エクセルなどのツールでその値をプロットすることも可能です。
+<img width="362" height="218" alt="image" src="https://github.com/user-attachments/assets/1f1b8284-40c3-4f8e-95a4-d314fcff98f5" />
 
 なお研究情報の保護のためOperando Masterを公開することはできません。私が開発したGAはその一部で機能するプラグインであると認識してください。
