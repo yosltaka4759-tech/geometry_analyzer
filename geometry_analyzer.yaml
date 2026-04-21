@@ -1,0 +1,47 @@
+
+geometry_analyzer:
+  _target_: plugins.geometry_analyzer.GeometryAnalyzer
+  pixel_size_nm: 0.045       # Will be overriddent by frame metadata. 
+  workers: 1              
+
+  # output 
+  save_dir: outputs/geometry_viz
+
+  # switches
+  draw_pca_major: true       
+  green_show_area: true        
+  save_image: true       
+  save_csv: false           
+
+  geom_push_image: true        
+  geom_push_stats: true       
+
+
+
+#_target_: plugins.geometry_analyzer.GeometryAnalyzer
+#pixel_size_nm: 0.045
+#workers: 1
+# 追加（必要なものだけ使う）
+#draw_pca_major: true         # 赤(1): PCA主軸の線と長さを描く
+#green_show_area: true        # 緑(2): 面積ラベルを描く
+#hull_for_pca: false          # PCAは凸包で計算（部分欠損の歪みを軽減）
+#save_csv: true               # 解析結果CSVを同名で出力
+#text_outline: true           # テキストを縁取りして視認性UP
+#sidecar_viz:
+#    save_dir: outputs/geometry_viz
+#    write_csv: true
+#    # 画像に表示するフィールド（好きに増減OK）
+#    fields: ["equiv_diam_nm", "area_nm2", "aspect", "eccentricity", "circularity", "orientation_deg"]
+#    units:
+#      area_nm2: "nm²"
+#      orientation_deg: "°"
+#    show_bbox: true
+#    show_centroid: true
+#    show_ellipse: true
+#    legend: true
+#    legend_loc: br         # br or tl
+#    show_scale_bar: true
+#    scale_bar_nm: 50.0
+#    class_labels:
+#      1: "core"
+#      2: "shell"
