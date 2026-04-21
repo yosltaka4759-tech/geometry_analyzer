@@ -23,6 +23,10 @@ GA calculate the diameter and area of　obgect from segmentation.
 There are various ways to define the diameter, but in this study, the direction is determined using PCA, and the Feret diameter along that direction is adopted.
 This is because it is close to the size that humans perceive as the diameter when observing an object.
 
+Those calcilated value is saved in a file, so you can plot it by Excel or something.
+
+*we can't the sourse code of Operando Master to ensure the protection of research information
+
 --------------------------------------------
 
 TEM画像の幾何情報を解析するためのツールです。
