@@ -34,7 +34,7 @@ Those calcilated value is saved in a file, so you can plot it by Excel or someth
 TEM画像の幾何情報を解析するためのツールです。
 本プログラムは、Operando Masterのプラグインの一つです。
 
-Operando Masterは、TEM画像を解析するためのシステムであり、主に名古屋大学の研究室に所属するTangによって開発されました。
+Operando Masterは、TEM画像を解析するためのシステムであり、主に名古屋大学の研究室に所属する唐龍(https://github.com/TouRyu)によって開発されました。
 このシステムでは、YOLOv5とU-Net++の2つのCNNモデルを使用しています。
 
 Operando Masterは、3種類の画像を生成します。
@@ -57,4 +57,6 @@ GAは、セグメンテーション画像から対象物の直径および面積
 また計算された値は別のファイルに保存されます。エクセルなどのツールでその値をプロットすることも可能です。
 <img width="362" height="218" alt="image" src="https://github.com/user-attachments/assets/1f1b8284-40c3-4f8e-95a4-d314fcff98f5" />
 
-なお研究情報の保護のためOperando Masterを公開することはできません。私が開発したGAはその一部で機能するプラグインであると認識してください。
+なお研究情報の保護のためOperando Masterを公開することはできません。
+唐さんに連絡することでもしかすると公開してくださるかもしれません
+開発したGAはその一部で機能するプラグインであると認識してください。
